@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../img/sao-paulo-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.header {
+    padding: 1rem;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.title {
+    margin-bottom: 1rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+main {
+    margin: 3rem;
+    padding: 2rem;
+    background-color: rgba(255,255,255,0.85);
+    border-radius: .4rem;
+}
+
+.video {
+    margin: 2rem 0;
+}
+
+.content ol {
+    padding-left: 3rem;
+}
+
+footer {
+    padding: 2rem;
+    background: #adadad;
+    background: rgb(245,245,250);
+    background: linear-gradient(90deg, rgba(245,245,250,1) 0%, rgba(93,99,114,0.2) 100%);
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.social-links {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 20px;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.icon img {
+    height: 90%;
+    margin: 0 auto;
+}
